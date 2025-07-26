@@ -11,13 +11,19 @@ This project is part of the July DevOps Challenge (Week 3) where the goal was to
 All services are containerized and orchestrated using Docker Compose, then deployed to Fly.io for public access.
 
 🧰 Technologies Used
-Tool	Purpose
-Prometheus	Scrapes and stores metrics from exporters
-Grafana	Dashboarding and metric/log visualization
-Loki	Centralized logging system (from Grafana Labs)
-Promtail	Ships local logs to Loki
-Docker Compose	Local orchestration of services
-Fly.io	Lightweight cloud platform for deployment
+Tool	             Purpose
+
+Prometheus   	     Scrapes and stores metrics from exporters
+
+Grafana          	Dashboarding and metric/log visualization
+
+Loki	            Centralized logging system (from Grafana Labs)
+
+Promtail	        Ships local logs to Loki
+
+Docker Compose	   Local orchestration of services
+
+Fly.io	           Lightweight cloud platform for deployment
 
 🛠️ Local Setup Instructions
 Clone the repo
